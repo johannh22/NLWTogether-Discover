@@ -16,6 +16,7 @@
   grid-area: left;
 
   background: url("/assets/home-bg-img.svg") no-repeat top/contain;
+  background-position: -10rem;
 }
 
 main {
@@ -37,11 +38,23 @@ main h2 {
 }
 
 input {
-    border: .2rem solid var(--grey-blue);
-    padding: 0 1.6rem;
+  border: 0.2rem solid var(--grey-blue);
+  padding: 0 1.6rem;
 }
 
-input, button, .button{
+input,
+button,
+.button {
   width: 100%;
   margin-bottom: 1.8rem;
+}
+
+/* Separator Line */
+.separator {
+  
+}
+
+.separator div:nth-child(1),
+.separator div:nth-child(3) {
+  background: var(--grey-blue);
 }
